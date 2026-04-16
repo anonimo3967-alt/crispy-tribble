@@ -21,7 +21,7 @@ with st.sidebar:
 st.image("Thragg aura.jpeg")
 
 st.title("Tablero para dibujar en Streamlit")
-st.text("dibuja lo que quieras", style ="text-align: center;")
+st.text("dibuja lo que quieras")
 
 
 canvas_result = st_canvas(
