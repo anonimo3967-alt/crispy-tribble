@@ -18,6 +18,8 @@ with st.sidebar:
 
   bg_color = st.color_picker("Color de fondo", "#000000")
 
+st.image("Thragg aura.jpeg")
+
 
 canvas_result = st_canvas(
   fill_color="rgba(255, 165, 0, 0.3)",
