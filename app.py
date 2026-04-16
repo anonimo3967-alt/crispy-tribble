@@ -18,6 +18,8 @@ with st.sidebar:
 
   bg_color = st.color_picker("Color de fondo", "#000000")
 
+st.image("")
+
 canvas_result = st_canvas(
   fill_color="rgba(255, 165, 0, 0.3)",
   stroke_width = stroke_width,
