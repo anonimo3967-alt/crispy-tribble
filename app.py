@@ -10,7 +10,7 @@ with st.sidebar:
   canvas_width = st.slider("Ancho del tablero", 300, 700, 500, 50)
   canvas_height = st.slider("Alto del tablero", 200, 600, 300, 50)
 
-  drawing_mode = st.selectbox("Herramienta de dibujo:", ("freedraw", "line", "rect", "circle", "transform", "polygon", "point"),)
+  drawing_mode = st.selectbox("Herramienta de dibujo:", ("freedraw", "lineaa", "rect", "circle", "transform", "polygon", "point"),)
 
   stroke_width = st.slider("Selecciona el ancho de línea", 1, 30, 15)
 
