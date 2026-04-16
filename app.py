@@ -20,6 +20,9 @@ with st.sidebar:
 
 st.image("Thragg aura.jpeg")
 
+st.title("Tablero para dibujar en Streamlit")
+st.text("dibuja lo que quieras")
+
 
 canvas_result = st_canvas(
   fill_color="rgba(255, 165, 0, 0.3)",
